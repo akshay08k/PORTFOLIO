@@ -1,0 +1,77 @@
+nav {
+  background-image: url("header.jpg");
+  background-position: left;
+  padding: 1%;
+  overflow: hidden;
+  padding-left:37em ;
+  font-weight: bolder;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: helvetica;
+  letter-spacing: 2px;
+}
+nav a:hover {
+  background-color:rgba(23, 1, 1, 0.282);
+  color: black;
+  border-radius: 10px;
+}
+  button{
+    height: 40px;
+    align-items: right;
+    border: hidden;
+    cursor: pointer;
+    background-color: rgba(23, 1, 1, 0.282);
+    border-radius: 5px;
+  }
+.paragraph{
+  padding-top: 20px;
+  padding-left: 10px;
+  color: black;
+  font-size: 30px;
+  border-radius: 30px;
+
+  justify-content: space-evenly;
+  display: flex;
+
+}
+span{
+   font-weight: bolder;
+}
+img{
+  height: 430px;  
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+svg{
+  height: 20px;
+  width: 30px;
+}
+
+.progress{
+  width: 30em;
+  height: 1em;
+  background:black;
+  border-radius: 10px;
+}
+.copyright
+{
+  text-align: right;
+  color: white;
+}
+.about{
+  color:black;
+}
+li,p{
+  font-size: 30px;
+}
+body{
+  background-image: linear-gradient(aqua,white,limegreen);
+}
